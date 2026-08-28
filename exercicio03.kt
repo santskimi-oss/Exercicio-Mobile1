@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         botao.setOnClickListener {
-            resposta.text = "Olá. ${nome.text.toString().trim()}!"
+            resposta.text = "Olá, ${nome.text.toString().trim()}!"
         }
 
         layout.addView(titulo)
